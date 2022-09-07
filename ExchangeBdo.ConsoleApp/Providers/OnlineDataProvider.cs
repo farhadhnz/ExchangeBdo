@@ -26,6 +26,12 @@ namespace ExchangeBdo.ConsoleApp.Providers
             var sourceExchange = await _exchangeRepository.GetLatestExchange(sourceCurrency);
             var targetExchange =await _exchangeRepository.GetLatestExchange(targetCurrency);
 
+            ///TODO: Exception Handling for null referencing of targetExchange or sourceExchange
+            if (sourceExchange == null || targetExchange == null)
+            {
+                _logger.LogError("Something went wrong! You might have defined a wrong currency symbol!");
+                throw new Exception();
+            }
             // calculate the output value
             return _rateCalculationService.CalculateExchangeValue(inputValue, sourceExchange.Rate, targetExchange.Rate);
         }

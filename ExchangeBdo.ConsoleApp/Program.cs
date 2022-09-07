@@ -33,7 +33,10 @@ var app = builder.Build();
 
 var inputOutputProvider = app.Services.GetRequiredService<IInputOutputProvider>();
 
-await inputOutputProvider.ProcessInputOutput();
+while (true)
+{
+    await inputOutputProvider.ProcessInputOutput();
+}
 
 
 
