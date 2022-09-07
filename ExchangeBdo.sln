@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeBdo.ConsoleApp", "ExchangeBdo.ConsoleApp\ExchangeBdo.ConsoleApp.csproj", "{71938668-7474-45A1-8227-106990A9CA17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeBdo.SchedulingApp", "ExchangeBdo.SchedulingApp\ExchangeBdo.SchedulingApp.csproj", "{719954B3-4F4F-489F-9507-414B3BBFF18F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeBdo.Data", "ExchangeBdo.Data\ExchangeBdo.Data.csproj", "{348C8E63-BF44-43D3-97FD-0E6654B5175E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeBdo.SharedServices", "ExchangeBdo.SharedServices\ExchangeBdo.SharedServices.csproj", "{DAE023AF-ADEC-4E46-89EB-1332D4E021CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeBdo.SharedDtos", "ExchangeBdo.SharedDtos\ExchangeBdo.SharedDtos.csproj", "{0F0FF266-F7FB-4F0F-9534-4BB549C82FF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71938668-7474-45A1-8227-106990A9CA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71938668-7474-45A1-8227-106990A9CA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71938668-7474-45A1-8227-106990A9CA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71938668-7474-45A1-8227-106990A9CA17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{719954B3-4F4F-489F-9507-414B3BBFF18F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{719954B3-4F4F-489F-9507-414B3BBFF18F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{719954B3-4F4F-489F-9507-414B3BBFF18F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{719954B3-4F4F-489F-9507-414B3BBFF18F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348C8E63-BF44-43D3-97FD-0E6654B5175E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348C8E63-BF44-43D3-97FD-0E6654B5175E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348C8E63-BF44-43D3-97FD-0E6654B5175E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348C8E63-BF44-43D3-97FD-0E6654B5175E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE023AF-ADEC-4E46-89EB-1332D4E021CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE023AF-ADEC-4E46-89EB-1332D4E021CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE023AF-ADEC-4E46-89EB-1332D4E021CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE023AF-ADEC-4E46-89EB-1332D4E021CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0FF266-F7FB-4F0F-9534-4BB549C82FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0FF266-F7FB-4F0F-9534-4BB549C82FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0FF266-F7FB-4F0F-9534-4BB549C82FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0FF266-F7FB-4F0F-9534-4BB549C82FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F26C7205-C9A9-4257-9B49-1911B652FDCB}
+	EndGlobalSection
+EndGlobal

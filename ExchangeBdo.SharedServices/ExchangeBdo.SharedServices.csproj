@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExchangeBdo.Data\ExchangeBdo.Data.csproj" />
+    <ProjectReference Include="..\ExchangeBdo.SharedDtos\ExchangeBdo.SharedDtos.csproj" />
+  </ItemGroup>
+
+</Project>
